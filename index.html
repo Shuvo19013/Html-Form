@@ -5,48 +5,54 @@
   </head>
 
   <body>
-    <h1>Html Form</h1>
+    <table border="1">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>Rayas</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>Abid</td>
+        <td>15</td>
+      </tr>
+    </table>
 
-    <form>
-      <input type="text" placeholder="Enter Name" value="Shuvo" />
-      <hr />
-      <input type="password" placeholder="password" />
-      <hr />
-      <input type="email" placeholder="Enter email" required />
-      <hr />
-      Marks:<input type="number" max="100" min="0" />
-      <hr />
-      <input type="range" min="10" max="50" />
-      <hr />
-      <input type="color" />
-      <hr />
-      DOB:<input type="date" max="2000-01-01" min="1971-01-01" />
-      <hr />
-      Time:<input type="time" />
-      <hr />
-      Month:<input type="month" />
-      <hr />
-      DateTime:<input type="datetime-local" />
-      <hr />
-      Gender:<input type="radio" name="gen" />male
-      <input type="radio" name="gen" />female
-      <hr />
-      Property:<input type="checkbox" />Laptop <input type="checkbox" />pc
-      <input type="checkbox" />ipad
-      <hr />
-      <input type="file" accept=".png" />
-      <hr />
-      <select>
+    <hr />
 
-        <option value="">Select Country</option>
-        <option value="">Bangladesh</option>
-        <option value="">Usa</option>
-      </select>
-      <hr>
-      <textarea cols="20" rows="5" placeholder="write here.."></textarea>
-      <hr>
-      <input type="submit" value="register" />
-      <input type="reset">
-    </form>
+    <table border="2">
+      <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th rowspan="3">Note</th>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Rayas</td>
+        <td>099</td>
+      </tr>
+      <td>088</td>
+    </table>
+    <hr />
+
+    <table border="3">
+      <tr>
+        <th>Name</th>
+        <td colspan="2">Tajia</td>
+      </tr>
+      <tr>
+        <th>Phone</th>
+        <td>099</td>
+        <td>088</td>
+      </tr>
+      <tr>
+        <td colspan="3">note</td>
+      </tr>
+    </table>
   </body>
 </html>
